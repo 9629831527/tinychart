@@ -53,14 +53,14 @@ var MainContainer = React.createClass({
     return (
       <div className="MainContainer">
         <header className="MainContainer-header">
-          <span className={FlashMessageClasses}>Saved!</span>
+          <span className={FlashMessageClasses}>Welcome to Tinychart!</span>
           <div className="SettingsButton"
                onClick={this.openSettings}
                dangerouslySetInnerHTML={{__html: Utils.svgHelper('#settings-icon')}}/>
         </header>
         {currentChart}
         <footer className="MainContainer-footer">
-          <span className="MainContainer-brand">Chartpad</span>
+          <span className="MainContainer-brand">Tinychart</span>
           <a className="MainContainer-contact" href="http://twitter.com/lechienvic">@lechienvic</a>
         </footer>
       </div>
